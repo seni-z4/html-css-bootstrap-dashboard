@@ -4,6 +4,57 @@
   box-sizing: border-box;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 .logo {
   width: 50px;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.pt-4 {
+  padding-top: 55px;
+}
+
+.texts {
+  color: #fff;
+  border: #fff;
+}
+.text-form {
+  color: black;
+}
+
+.btn-pen {
+  background: transparent;
+  border: 2px solid #c0c3c6;
+  display: inline-block;
+  text-align: end;
+  color: gray;
+}
+.btn-pens {
+  background: transparent;
+  border: 2px solid #c0c3c6;
+  display: inline-block;
+  color: gray;
+}
+
+.pen-gap {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-red {
+  width: 135px;
 }
