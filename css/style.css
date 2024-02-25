@@ -14,18 +14,21 @@ ol {
 }
 
 .container {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .row {
   display: flex;
-  align-items: center;
   align-self: center;
 }
 
 .pt-4 {
   padding-top: 55px;
+}
+
+.card-margin {
+  margin-top: 20px;
 }
 
 .texts {
@@ -57,4 +60,15 @@ ol {
 
 .btn-red {
   width: 135px;
+}
+
+.space-card {
+  padding: 20px;
+}
+
+.box {
+  margin-right: 10px;
+}
+
+@media screen {
 }

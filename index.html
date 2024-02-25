@@ -99,7 +99,7 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-8 pt-4">
+          <div class="col-md-8 pt-4">
             <div class="d-flex justify-content-between">
               <h2>Catalogo libri</h2>
               <button class="btn btn-primary">Aggiungi libro</button>
@@ -111,7 +111,7 @@
                   <th scope="col">Titolo</th>
                   <th scope="col">Data presito</th>
                   <th scope="col">Stato</th>
-                  <th scope="col">Azioni</th>
+                  <th scope="col" style="text-align: center;">Azioni</th>
                 </tr>
               </thead>
               <tbody>
@@ -193,10 +193,59 @@
               </tbody>
             </table>
           </div>
-          <div class="col-4 pt-4">
-            <div class="d-flex">
-              <h2>todo</h2>
-            </div>
+          <div class="col-md-4 pt-4">
+            <div class="cardss">
+              <div class="card">
+                <div class="card-header">
+                  <h3>Todo</h3>
+                </div>
+                <div class="card-body">
+                  <div class="card">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"> <input class="box" type="checkbox">Chiamare segreteria</li>
+                      <li class="list-group-item"> <input class="box" type="checkbox">Mandare avvisi prestiti scaduti</li>
+                      <li class="list-group-item"> <input class="box" type="checkbox">Ordine nuovi libri</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-margin">
+                <div class="card-header">
+                  <h3>F.A.Q</h3>
+                </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Come aggiungere un nuovo libro?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Come posso accedere all anagrafica untenti
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                       posso usare questa dashboard da mobile
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
